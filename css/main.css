@@ -1,0 +1,342 @@
+/* this side for reset page */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+/* reset done  */
+
+
+
+    /* begin for editing header  */
+
+        /* edit for header icon */
+.header-icon{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: black;
+    border-radius: 20px;
+    float: left;
+    margin: 20px 10px;
+}
+.header-icon i{
+    padding: 11px;
+    color: #ecbd07;
+}
+.top-header{
+    display: inline;
+    font-weight: bold;
+}
+        /* done for edit icon */
+
+        /* this field for edit nv */
+.bot-header ul{
+    list-style: none;
+}
+.bot-header ul li{
+    display: inline;
+    margin-right: 30px;
+}
+.bot-header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.top-header, .bot-header{
+    padding: 5px 30px;
+}
+        /* done for edit nav  */
+
+    /* end for editing header */
+
+
+
+/* this place for edit slader */
+.slader{
+    background-image: url(../images/2.jpg);
+    height: 625px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* done edit slader */
+
+
+
+    /* this field for edit carousel */
+.carou_left, .carou_right {
+    width: 50%;
+    height: 400px;
+    float: left;
+    word-spacing: 3px;
+    margin: 50px 0px;
+    padding: 10px;
+    line-height: 30px;
+}
+/* editing left carousel */
+.carou_left h1{
+    padding-bottom: 25px;
+}
+.carou_left span{
+    color: #868686;
+    padding: 10px 0px;
+}
+.carou_left button{
+    border: none;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 5px;
+    background-color: #fdc800;
+    font-weight:900;
+    margin-top: 40px;
+}
+/* done for left carousel */
+
+        /* this for right carousel part */
+.carou_right img{
+    width: 90%;
+}
+        /* end of right carousel field */
+    
+    /* end of carousel */
+
+
+
+/* this part for edit content in section */
+.section{
+    background-color: #f6f6f6;
+    height: 200px;
+    width: 100%;
+    color: #212529;
+}
+.content{
+    width: 25%;
+    float: left;
+    padding: 60px 0px;
+}
+.content h1, .content span{
+    float: left;
+}
+.content h1{
+    font-size: 70px;
+}
+.content span{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 10px;
+}
+/* content edit done  */
+
+
+
+   /* this part for editing arcticle */
+.arcticle_content{
+    margin: 100px auto;
+}
+.arcticle_item{
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: white;
+    padding: 14px;
+}
+.inner_item{
+    background-color: #002146;
+    height: 160px;
+    padding: 10px;
+    color: white;
+    padding: 35px;
+    border-radius: 5px;
+}
+.inner_item i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+    /* done for arcticle */
+
+
+
+/* this for main part  */
+
+    /* here for left side  */
+.main{
+    background-color: #f6f6f6;
+}
+.main-post{
+    width: 50%;
+}
+.left{
+    float: left;
+}
+.latest_post{
+    padding-right: 44px;
+}
+.latest_post h1:first-of-type, .Upcoming_Events h1{
+    margin: 110px 0px 50px 0px;
+    font-size: 40px;
+}
+.latest-image{
+    width: 30%;
+}
+.item_latest{
+    width: 65%;
+}
+.item_latest p{
+    margin-bottom: 5px;
+    padding-top: 11px;
+    color: #616161;
+}
+.item_latest span{
+    color: #939393;
+    margin-bottom: 5px;
+}
+.item_latest h2, .events_arcticle p{
+    padding-bottom: 11px;
+}
+.latest-border{
+    border-bottom: solid 1px #eeeeee;
+    padding-bottom: 30px;
+}
+.latest_item{
+    background-color: white;
+    padding: 15px;
+}
+.latest-image{
+    padding-top: 7px;
+}
+.latest_item img{
+    width: 90%;
+    border-radius: 5px;
+}
+.btn{
+    text-align: right;
+    margin: 35px 0px 100px 0px;
+}
+.btn button{
+    height: 3.5rem;
+    width: 9rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #fdc800;
+}
+    /* end of left side  */
+
+        /* begin for the right side  */
+.Upcoming_Events{
+    padding-left: 44px;
+}
+.events_item{
+    background-color: white;
+}
+.events_nav{
+    width: 100%;
+    height: 200px;
+    padding: 20px 0px;
+    margin-bottom: 30px;
+}
+.calendar-field{
+    width: 30%;
+}
+.events_arcticle{
+    width: 65%;
+    word-spacing: 2px;
+}
+.events_arcticle p{
+    color: #939393;
+}
+.events_arcticle h2{
+    padding-bottom: 20px;
+}
+.events_arcticle span{
+    color: #1a3759;
+    padding: 0px 10px;
+}
+.events_arcticle span:first-of-type{
+    border-right: solid 1px #bdbdbd;
+}
+.top_calendar{
+    background-color: #fdc800;
+    padding: 16px;
+    border-radius: 5px 5px 0px 0px;
+}
+.top_calendar h1{
+    margin: 0px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.top_calendar p{
+    font-size: 18px;
+}
+.bot_calendar{
+    background-color: #002146;
+    padding: 11px;
+    color: white;
+    font-weight: lighter;
+    font-size: 17px;
+    border-radius: 0px 0px 5px 5px;
+}
+.calendar{
+    padding: 0px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+        /* end of right side  */
+
+/* end of main part  */
+
+
+
+    /* this for edit footer */
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: #002146;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.top-footer{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #454545;
+}
+.footer-inf .fa{
+    color: #fac601;
+    padding-right: 5px;
+}
+.footer-inf{
+    width: 33%;
+    
+}
+.footer h2{
+    padding-bottom: 20px;
+}
+.footer-inf ul{
+    list-style: none;
+}
+.footer ul li{
+    padding: 10px 0px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    color: #fac601;
+}
+.bot-footer{
+    padding-top: 40px;
+}
+.bot-footer span a{
+    color: #cccccc;
+}
+    /* edit footer done  */
